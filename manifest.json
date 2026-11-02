@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version" : "0.0.1",
+    "name": "I was gonna place there",
+    "content_scripts": [
+    {
+        "matches": [
+            "https://colonist.io/*",
+            "https://*.colonist.io/*"
+        ],
+        "js": ["src/main.js"],
+        "run_at": "document_start",
+        "world": "MAIN"
+    }
+ ]
+}
