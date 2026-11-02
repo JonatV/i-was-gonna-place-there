@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version" : "0.0.1",
+    "version" : "0.1.0",
     "name": "I was gonna place there",
     "content_scripts": [
     {
